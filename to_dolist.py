@@ -11,6 +11,7 @@ while True:
             print("No task to show")
         else:
             print("Task to be done: ")
+            print("----------------------------")
             for i,task in enumerate(to_do,start=1):
                 print(f'{i}.{task}')
     elif user_input=='3':
