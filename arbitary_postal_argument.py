@@ -77,5 +77,15 @@ print(marksheet(
     attendance="96"
 ))
 
+#default Argument
 
+def area(r,pie=3.14):
+     return pie*r*r
 
+print(area(1))
+print(area(7,5))
+
+#lambda
+
+n= lambda a,b: a*b
+print(n(2,3))
